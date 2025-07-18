@@ -1,0 +1,132 @@
+.veggie-page {
+  margin-top: 50px;
+  background-color: #f0fdf4;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.veggie-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.veggie-header h1 {
+  color: #2c7a59;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.veggie-header p {
+  color: #4a4a4a;
+  font-size: 1rem;
+}
+
+.veggie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.veggie-card {
+  background: #ffffff;
+  width: 270px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(34, 139, 84, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.veggie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(34, 139, 84, 0.15);
+}
+
+.veggie-img {
+  background-color: #e0f2e9;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.veggie-info {
+  text-align: center;
+  width: 100%;
+}
+
+.veggie-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1b4332;
+  margin-bottom: 5px;
+}
+
+.veggie-tag {
+  display: inline-block;
+  background-color: #d1fae5;
+  color: #065f46;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.veggie-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.label {
+  font-weight: 500;
+  color: #555;
+}
+
+.value {
+  font-weight: 600;
+  color: #1b4332;
+}
+
+.add-btn {
+  background-color: #38a169;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #2f855a;
+}
+
+.footer-cart-link {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.go-to-cart {
+  text-decoration: none;
+  background-color: #2c7a59;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.go-to-cart:hover {
+  background-color: #245f49;
+}

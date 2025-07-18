@@ -1,0 +1,20 @@
+.card {
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card-title small {
+  font-size: 0.85rem;
+}
+
+.text-success {
+  color: #2e7d32 !important;
+}
+
+.text-warning {
+  color: #ff9800 !important;
+}
