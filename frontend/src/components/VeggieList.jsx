@@ -26,12 +26,13 @@ export default function VeggieList() {
         {veggies.map((veg) => (
           <div className="veggie-card" key={veg._id}>
           <div className="card h-100 shadow-sm text-center p-3">
-              <img
-                src={veg.image || 'https://via.placeholder.com/200x150?text=Veggie'}
-                alt={veg.name}
-                className="img-fluid rounded mb-3"
-                style={{ width: '100%', height: '150px', objectFit: 'cover' }}
-              />
+             <img
+  src={veg.image || 'https://dummyimage.com/200x150/cccccc/000000&text=Veggie'}
+  alt={veg.name}
+  className="img-fluid rounded mb-3"
+  style={{ width: '100%', height: '150px', objectFit: 'cover' }}
+/>
+
             </div>
 
             <div className="veggie-info">
